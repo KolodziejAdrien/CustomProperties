@@ -1,0 +1,182 @@
+@import 'https://fonts.googleapis.com/css2?family=Lobster&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Della+Respira&display=swap';
+
+:root {
+    --ff-text: 'Lobster', sans-serif;
+    --ff-title: 'Della Respira', sans-serif;
+
+	--clr-primary-300: #ff5858;
+	--clr-primary-600: #cc2e5d;
+
+	--clr-neutral-100: #f8f8f8;
+	--clr-neutral-300: #ececec;
+	--clr-neutral-500: rgb(129, 129, 129);
+	--clr-neutral-900: #161a19;
+}
+
+/* Custom Properties */
+
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+section,
+html,
+body{
+	margin: 0;
+}
+
+body{
+	font-weight: 400;
+	font-size: 1.3125rem;
+	line-height: 1.6;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    margin-inline: auto;
+    width: 100%;
+    position: relative;
+}
+
+a, button{
+	text-decoration: none;
+	/* color: var(--clr-neutral-900); */
+}
+
+a:hover, button:hover{
+    cursor: pointer;
+    /* color: var(--clr-neutral-100); */
+}
+
+img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+li{
+	list-style: none;
+}
+
+h1,
+h2,
+h3{
+	line-height: 1;
+	font-weight: 900;
+}
+
+h2,
+h3,
+p{
+	margin-bottom: 1em;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.split{
+    flex-direction: row;
+}
+
+@media (min-width: 40em) {
+	.split{
+		flex-direction: row;
+	}
+	.split > * {
+		flex-basis: 100%;
+	}
+}
+
+
+
+
+
+
+/* !!!! TRY THIS REALLY NICE BUT DON'T REMEMBER WHAT IT DOES */
+/* .split > * {
+    flex-basis: 100%;
+}
+
+.hero .split > * + * {
+    margin-left: 15em;
+    margin-top: 5em;
+} */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* @media (max-width: 40em){
+
+}
+
+@media (min-width: 40.1em) and (max-width: 50em){
+
+} */
+
+/* End Custom Properties */
+
+
+
+/* !!---------------------------------------------------------------------------------------------------!! */
+/* !!---------------------------------------------------------------------------------------------------!! */
+/* !!---------------------------------------------------------------------------------------------------!! */
+
+
+
+/* Header Section */
+
+/* End Header Section */
+
+
+
+/* !!---------------------------------------------------------------------------------------------------!! */
+/* !!---------------------------------------------------------------------------------------------------!! */
+/* !!---------------------------------------------------------------------------------------------------!! */
+
+
+
+/* Main Section */
+
+/* End Main Section */
+
+
+/* !!---------------------------------------------------------------------------------------------------!! */
+/* !!---------------------------------------------------------------------------------------------------!! */
+/* !!---------------------------------------------------------------------------------------------------!! */
+
+
+/* Contact Section */
+
+/* End Contact Section */
+
+
+/* !!---------------------------------------------------------------------------------------------------!! */
+/* !!---------------------------------------------------------------------------------------------------!! */
+/* !!---------------------------------------------------------------------------------------------------!! */
+
+
+/* Footer Section */
+
+/* End Footer Section */
