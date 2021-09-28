@@ -45,6 +45,7 @@ section{
     margin-inline: auto;
     width: 100%;
     position: relative;
+    padding: 1em;
 }
 
 a, button{
